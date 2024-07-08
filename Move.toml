@@ -1,0 +1,13 @@
+[package]
+name = "movesmart"
+version = "1.0.0"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[addresses]
+hello_blockchain="0x1160a403706a00b133f06d1871f1769c7bf6e4227f22f83d6ba03055bf32ab5c"
+
+[dev-addresses]
